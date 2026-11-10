@@ -1,5 +1,7 @@
 package designPattern.Structural.adapterPattern.payment;
 
+import java.math.BigDecimal;
+
 public class OrderService {
 
     public void performProcess(IPaymentProcessor paymentProcess, PaymentRequest request) {

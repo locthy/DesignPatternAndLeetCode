@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class test {
+public class duplicateValueTurtoiseHare {
     int length = 9;
     
 

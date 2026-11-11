@@ -1,0 +1,1 @@
+![alt text](notiPlatform-class-diagram.png)

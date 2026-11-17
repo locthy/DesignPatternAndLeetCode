@@ -1,15 +1,11 @@
-import java.util.ArrayList;
 
 public class duplicateValueTurtoiseHare {
     int length = 9;
-    
 
     public static void main(String args[]) {
-        int[] arr = {4, 2, 2, 5, 3, 1};
+        int[] arr = { 4, 2, 2, 5, 3, 1 };
         System.out.println(findDuplicate(arr));
     }
-
-
 
     public static int findDuplicate(int[] arr) {
         int slow = 0;
@@ -18,7 +14,7 @@ public class duplicateValueTurtoiseHare {
             slow = arr[slow];
             fast = arr[arr[fast]];
 
-            if(slow == fast) {
+            if (slow == fast) {
                 break;
             }
         }
@@ -29,10 +25,9 @@ public class duplicateValueTurtoiseHare {
             slow = arr[slow];
             slow2 = arr[slow2];
 
-            if(slow == slow2) {
+            if (slow == slow2) {
                 return slow;
             }
         }
     }
 }
-
